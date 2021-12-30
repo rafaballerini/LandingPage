@@ -35,6 +35,9 @@ body {
   font-weight: 400;
   font-size: 18px
 }
+.cabecalho-menu-item:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
 
 .conteudo {
   margin-bottom: 48px;
