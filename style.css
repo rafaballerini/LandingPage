@@ -164,7 +164,7 @@ body {
         display: initial;
     }
 
-    .conteudo-principal-escrito-botao {
+    #conteudo-principal-escrito-botao {
         display: block;
         margin: 0 auto;
     }
