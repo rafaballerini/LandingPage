@@ -10,10 +10,10 @@
 
 <table>
   <tr>
-    <td width="267"><h3>Vídeo passo a passo criação da Landing Page:</h3></td>
-    <td valign="top"><a href="https://youtu.be/llF6vD-RljE" target="_blank"><img src="https://img.youtube.com/vi/llF6vD-RljE/0.jpg" width="240" height="180"></a></td>
+    <td width="450"><h3>Vídeo passo a passo criação da Landing Page:</h3></td>
+    <td valign="top" width="267"><a href="https://youtu.be/llF6vD-RljE" target="_blank"><img align="center" src="https://i.ytimg.com/vi/llF6vD-RljE/maxresdefault.jpg" width="240" border="10"></a></td>
   </tr>
   <tr>
-    <td valign="top" colspan="2"><a href="https://zaikoxander.github.io/LandingPage/"><img src="page_photo.png"></a></td>
+    <td valign="top" colspan="2"><h3 align="center">Landing Page</h3><a href="https://zaikoxander.github.io/LandingPage/"><img align="center" src="page_photo.png" width="100%"></a></td> <!-- Substituir link ou removê-lo -->
   </tr>
 </table>
