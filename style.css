@@ -35,6 +35,13 @@ body {
     font-weight: 400;
     font-size: 1.125em;
     color: #FFF2E7;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+.cabecalho-menu-item:hover {
+    color: rgba(236, 214, 196, 0.53);
 }
 
 .conteudo {
@@ -85,6 +92,9 @@ body {
     font-weight: 400;
     font-size: 1.5em;
     color: #2F2325;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
 }
 
 .conteudo-principal-escrito-botao:hover {
