@@ -26,15 +26,28 @@ body {
 
 .cabecalho-menu {
   display: flex;
-  gap: 32px;
+  /* Alteração */
+  gap: 22px;
+  /**/
 }
 
 .cabecalho-menu-item {
+  /* Implementação */
+  border-radius: 20px;
+  padding: 10px;
+  /**/
   font-family: 'Sarala', sans-serif;
   color: #FFF2E7;
   font-weight: 400;
   font-size: 18px
 }
+
+/* Implementação */
+.cabecalho-menu-item:hover {
+  color: #2F2325;
+  background: #FFF2E7;
+}
+/**/
 
 .conteudo {
   margin-bottom: 48px;
