@@ -137,14 +137,24 @@ footer img {
 }
 
 @media screen and (max-width:600px) {
+    header nav {
+        text-align: center;
+        margin-top: 15px;
+    }
+
     main .principal div h1 {
         display: block;
         margin-left: auto;
         margin-right: auto;
+        padding-right: 10px;
+        padding-left: 10px;
     }
 
-    h2 {
+    h2,
+    p {
         text-align: center;
+        padding-right: 10px;
+        padding-left: 10px;
     }
 
     main .principal div button {
