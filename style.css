@@ -94,6 +94,10 @@ main {
     border-radius: 20px;
 }
 
+.principal a{
+    width:fit-content;
+}
+
 .principal button:hover {
     transition-duration: 0.4s;
     background-color: rgba(236, 214, 196, 0.53);
