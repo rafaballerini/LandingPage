@@ -137,8 +137,14 @@ footer img {
 }
 
 @media screen and (max-width:600px) {
+    header img {
+        display: none;
+    }
+
     header nav {
+        gap: 16px;
         text-align: center;
+        align-items: center;
         margin-top: 15px;
     }
 
