@@ -25,6 +25,10 @@ header img {
     height: 72px;
 }
 
+.mobile-nav {
+    display: none;
+}
+
 header nav {
     display: flex;
     gap: 32px;
@@ -137,16 +141,96 @@ footer img {
 }
 
 @media screen and (max-width:600px) {
-    header img {
+
+    header img,
+    .desktop-nav {
         display: none;
     }
 
-    header nav {
-        gap: 16px;
-        text-align: center;
+    /* ARRUMAR AQUI*/
+    .mobile-nav {
+        display: flex;
+        flex-direction: row;
         align-items: center;
-        margin-top: 15px;
+        justify-content: space-between;
     }
+
+    .menu {
+        display: flex;
+        margin-top: 50px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu>li {
+        margin: 0 1rem;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        padding: 0.5em 0;
+        width: 100%;
+    }
+
+    .menu-button-container {
+        height: 100%;
+        width: 30px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #menu-toggle {
+        display: none;
+    }
+
+    .menu-button,
+    .menu-button::before,
+    .menu-button::after {
+        display: block;
+        background-color: #ECD6C4;
+        position: absolute;
+        height: 4px;
+        width: 30px;
+        transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+        border-radius: 2px;
+    }
+
+    .menu-button::before {
+        content: '';
+        margin-top: -8px;
+    }
+
+    .menu-button::after {
+        content: '';
+        margin-top: 8px;
+    }
+
+    #menu-toggle:checked+.menu-button-container .menu-button::before {
+        margin-top: 0px;
+        transform: rotate(405deg);
+    }
+
+    #menu-toggle:checked+.menu-button-container .menu-button {
+        background: transparent;
+    }
+
+    #menu-toggle:checked+.menu-button-container .menu-button::after {
+        margin-top: 0px;
+        transform: rotate(-405deg);
+    }
+
+    #menu-toggle~.menu li {
+        display: none;
+    }
+
+    #menu-toggle:checked~.menu li {
+        display: flex;
+        height: 2.5em;
+        padding: 0.5em;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
 
     main .principal div h1 {
         display: block;

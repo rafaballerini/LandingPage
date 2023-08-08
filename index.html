@@ -14,11 +14,26 @@
 <body>
     <header>
         <img src="assets/logo.svg" alt="Logo">
-        <nav>
+        <nav class="desktop-nav">
             <a href="https://discord.gg/wagxzStdcR" rel="external" target="_blank">Comunidade Ballerini</a>
             <a href="">Tutorial</a>
             <a href="">Open Source</a>
             <a href="#">Comandos</a>
+        </nav>
+
+            <nav class="mobile-nav">
+            <input id="menu-toggle" type="checkbox" />
+
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+
+            <ul class="menu">
+                <li><a href="https://discord.gg/wagxzStdcR" rel="external" target="_blank">Comunidade Ballerini</a></li>
+                <li><a href="">Tutorial</a></li>
+                <li><a href="">Open Source</a></li>
+                <li><a href="#">Comandos</a></li>
+            </ul>
         </nav>
     </header>
 
